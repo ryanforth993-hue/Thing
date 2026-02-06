@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="comp()">
+      <h3><mark class="err" id="jserr"> Js failed to load </mark></h3>
+      <h1>Home</h1>
+      <button class="cbut" onclick="c_change('0')">Blue</button>
+      <button class="cbut" onclick="c_change('1')">Diarrhea</button>
+      <button class="cbut" onclick="c_change('2')">Turquoise</button>
+      <button class="cbut" onclick="c_change('3')">Wikipedia</button>
+      <hr class="cool">
+      <a href="./change.html"><button class="hbut">Changelog</button></a>
+      <br>
+      <a href="./spc.html"><button class="pbut">Space Invaders</button></a>
+      <a href="./page2.html"><button class="pbut">Project 2</button></a>
+      <br>
+      <script src="script.js"></script>
+  </body>
+</html>
