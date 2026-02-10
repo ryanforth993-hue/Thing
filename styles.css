@@ -1,0 +1,125 @@
+:root {
+  --bg: rgb(60,100,120);
+  --bc: rgb(5,15,20);
+  --bb: rgb(20,30,40);
+  --hb: rgb(40,50,60);
+  --ab: rgb(50,70,90);
+  --cool: rgb(50,60,70);
+  --fontc: #fff;
+  --tran: none;
+}
+body {
+  padding: 100px;
+  color: var(--fontc);
+  background: var(--bg);
+  font-family: "Times New Roman", serif;
+  font-size: 25px;
+  transition: var(--tran);
+}
+.en {
+  width: 4%;
+  height: 11%;
+  position: absolute;
+  background-color: #f26;
+  box-shadow: 
+  0px 0px 15px 5px #f25,
+  10px 0px 10px 0px #f25,
+  25px 0px 20px 0px #f25;
+}
+.bul {
+  width: 5%;
+  height: 1%;
+  position: relative;
+  background-color: #fa7;
+  box-shadow: 
+  0px 0px 15px 5px #f75,
+  -10px 0px 10px 0px #f75,
+  -25px 0px 20px 0px #f75;
+}
+.player {
+  width: 3%;
+  height: 10%;
+  border: 5px solid var(--hb);
+  position: relative;
+  top: 5%;
+  left: 3%;
+  background-color: #ff7;
+}
+.container {
+  width: 900px;
+  height: 506px;
+  border: 5px solid var(--bb);
+  border-radius: 10px;
+  background: var(--ab);
+  margin: 0 auto;
+  position: relative;
+  left: auto;
+}
+.err {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.hbut {
+  position: absolute;
+  top: 150px;
+  right: 105px;
+  padding: 0px;
+}
+.pbut, .hbut, .cbut {
+  width: fit-content;
+  height: fit-content;
+  background: var(--bb);
+  border-radius: 10px;
+  border: 5px solid var(--bc);
+  color: var(--fontc);
+  font-size: 20px;
+  padding: 15px;
+  transition: var(--tran);
+}
+.pbut:hover, .hbut:hover, .cbut:hover {
+  background: var(--hb);
+  box-shadow: 
+  0px 0px 0px 2px var(--bc),
+  5px 5px 10px 3px var(--ab);
+}
+.pbut:active , .hbut:active, .cbut:active {
+  background: var(--ab);
+  transition: none;
+}
+hr.cool {
+  background: var(--cool);
+  height: 10px;
+  border: none;
+  margin: none;
+  transition: var(--tran);
+}
+
+p,li {
+  text-indent: 50px;
+  font-family: Helvetica, sans-serif;
+}
+img {
+  object-fit: contain;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.3em;
+}
+h4, summary{
+  font-size: 1em;
+}
+h5{
+  font-size: .8em;
+}
+h6{
+  font-size: .6em;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
